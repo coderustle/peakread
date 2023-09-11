@@ -13,9 +13,17 @@ A simple tool to get quick summaries of online articles. It uses `typer` to make
 ```bash
 $ git clone https://github.com/coderustle/peakread && cd peakread
 ```
-2. Install the required packages
+2. Create and activate a virtual environment
+```bash
+$ python3 -m venv .venv && source .venv/bin/activate
+```
+3. Install the required packages
 ```bash
 $ pip install -r requirements.txt
+```
+4. Install locally
+```bash
+$ pip install -e .
 ```
 
 ## Requirements
