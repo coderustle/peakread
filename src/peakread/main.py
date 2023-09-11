@@ -27,7 +27,7 @@ def init():
 
 
 @app.command()
-def peak(url: str):
+def read(url: str):
     article = Article(url)
     article.download()
     article.parse()
