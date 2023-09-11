@@ -9,20 +9,30 @@ A simple tool to get quick summaries of online articles. It uses `typer` to make
 
 ## Installation
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Install the required packages
+1. Clone the repository and `cd` to project directory
+```bash
+$ git clone https://github.com/coderustle/peakread && cd peakread
+```
+2. Install the required packages
+```bash
+$ pip install -r requirements.txt
+```
 
 ## Requirements
+The following libraries are needed to be installed.
+
+- PIL: libjpeg-dev zlib1g-dev libpng12-dev
+- lxml: libxml2-dev libxslt-dev
+- Python Development version: python-dev
 
 **Debian/Ubuntu**
 ```bash
 
 # Needed by lxml
-sudo apt-get install libxml2-dev libxslt-dev
+$ sudo apt-get install libxml2-dev libxslt-dev
 
 # needed by PIL
-sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev
+$ sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev
 ```
 
 **OSX**
