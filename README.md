@@ -31,3 +31,12 @@ $ brew install libxml2 libxslt
 
 $ brew install libtiff libjpeg webp little-cms2
 ```
+## Usage
+
+```bash
+# download the NLTK models and corpora
+$ peak init
+
+# read and summarize an article
+$ peak read --url url
+```
