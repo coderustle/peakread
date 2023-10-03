@@ -56,5 +56,5 @@ $ brew install libtiff libjpeg webp little-cms2
 $ peak init
 
 # read and summarize an article
-$ peak read --url url
+$ peak read url
 ```
